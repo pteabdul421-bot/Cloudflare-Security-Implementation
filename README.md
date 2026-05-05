@@ -37,15 +37,13 @@ This project focuses on improving the security, performance, and reliability of 
 - Configured DNS records (A, CNAME) for correct routing  
 - Ensured secure communication between client and edge  
 
----
-
 ## Verification & Testing
 
 ### HTTP Header Validation
 Used `curl` to verify Cloudflare proxy status:
+<img width="1918" height="642" alt="cloudflare implementation" src="https://github.com/user-attachments/assets/9473e882-1d02-4085-b218-b4aef079e281" />
 
 ```bash
 curl -I https://apexflora.co.uk
-
 
 
